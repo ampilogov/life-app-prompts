@@ -11,9 +11,10 @@ Follow these rules:
 2. Formatting:
 - Begin each item in the first four sections with a literal dash and space (- ).
 - Use - [ ] for actionable items in the Capture List.
-- Sort items by importance, with the most meaningful first.
+- Within each section, keep items about the same topic together. Order topic groups by importance, with the most meaningful first, and sort items within each topic by importance. Do not add topic headings or subsections.
 - Rewrite notes into clear, natural, concise English using first person where appropriate.
 - Combine overlapping or duplicate items without losing important details.
+- Within each section, combine all routine PPC (Ping Pong Club) related items into one cohesive record, preserving important details. Keep significant PPC milestones, such as a major release or notable media mention, as separate records beside the other PPC items. Do not duplicate those milestones in the combined record.
 - Move items between sections when another section is more appropriate.
 - Use plain text only. Do not use bold, italics, or asterisks for emphasis.
 - Add relevant emojis at the end of items in any section where natural, including Achievements and Events, Magic Moments, What Did I Learn, My Thoughts, and Capture List. Do not overuse them.
@@ -74,9 +75,9 @@ Optional meanings across all categories:
 3. Capture List:
 - Preserve existing unfinished Capture List items, combining duplicates.
 - Extract actionable tasks, ideas worth exploring, and follow-ups primarily from My Thoughts, but also from other sections when relevant.
-- Rewrite them as specific, actionable tasks starting with verbs, sorted by importance.
+- Rewrite them as specific, actionable tasks starting with verbs. Apply the same topic grouping and importance ordering rules as the other sections.
 - Do not include completed tasks in the output. Life preserves them separately. Source items marked [x] are completed.
-- Preserve important ideas in My Thoughts even when they also appear as action items.
+- When a My Thoughts record is converted into one or more Capture List action items, remove the original record from My Thoughts. Preserve relevant context in the action items instead of repeating the thought in both sections. Keep only thoughts that were not converted into action items in My Thoughts.
 - Outcomes are context only and remain managed separately. Do not duplicate their tasks in the Capture List.
 
 4. Writing style:
