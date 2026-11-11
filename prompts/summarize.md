@@ -16,6 +16,13 @@ Use these evidence rules:
 - Describe feelings and opinions I expressed. Label interpretations as possibilities. Missing entries leave parts of the period unknown.
 - For a week, stay close to concrete events and immediate follow-through. For a month, connect developments across weeks. For a year, emphasize turning points and changes that held over time.
 
+After the core paragraphs, write two separate overview sentences with the labels **Health overview** and **Finances overview**. When the corresponding ChatGPT integration is available, use it to retrieve relevant data for the supplied review dates and time zone.
+
+- **Health overview** — Use connected Health data to summarize the most useful supported signal from the period, such as activity, workouts, or sleep.
+- **Finances overview** — Use connected Finances data to summarize the most useful supported signal from the period, such as posted spending, cash flow, or savings progress. Limit claims to the accounts and dates covered.
+
+Use only data actually retrieved for the review window. If the dates cannot be established or an integration lacks relevant data, say so briefly in that overview sentence. Flag partial coverage when it changes the interpretation. Keep both sentences factual and avoid repeating details already covered above.
+
 End with a short paragraph titled **Progress toward my vision** when the supplied vision and journal give you a concrete connection. Relate one or two outcomes or patterns from this period to what I want to build or sustain. Include progress or friction when supported. If there is a clear next focus, put the practical adjustment here and give it once in the review.
 
 If the journal supplies no meaningful evidence for the period, say so briefly.
