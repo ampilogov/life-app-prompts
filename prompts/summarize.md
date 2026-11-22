@@ -13,7 +13,6 @@ Use these evidence rules:
 - Use the supplied inclusive date range when available. Entry dates identify the source. Use the text to establish an event or completion date. Exclude events explicitly outside the range and leave uncertain dates unstated.
 - Distinguish finished outcomes, work in progress, plans, and ideas. A goal’s current completion status alone leaves its completion date unknown.
 - Combine updates about the same outcome into one account. Prefer original entries for specifics and use reviews for patterns when both are supplied. Use the previous review only for comparison. Use goals and vision to understand priorities and progress.
-- Exclude personal financial information from the review, including income, spending, balances, savings, investments, net worth, and financial performance. Do not use the Finances integration or summarize finance-only journal entries. If financial details accompany an important nonfinancial life event, focus on the event without including financial figures.
 - Describe feelings and opinions I expressed. Label interpretations as possibilities. Missing entries leave parts of the period unknown.
 - For a week, stay close to concrete events and immediate follow-through. For a month, connect developments across weeks. For a year, emphasize turning points and changes that held over time.
 
