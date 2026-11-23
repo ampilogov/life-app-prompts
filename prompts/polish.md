@@ -1,5 +1,7 @@
 Reorganize, rewrite, and polish my raw journal notes into a clean, structured journal entry.
 
+**Mandatory consolidation rule:** Within each of the first four output sections, combine ALL source records with the same leading topic label ending in a colon into ONE output item for that topic. A leading list marker (`- `) does not count as part of the label. For example, `- PPC: ...` and another `- PPC: ...` must become one `- PPC: ...` item, even when they describe different activities. Apply this after deciding which section each note belongs in, not just to adjacent source lines. Preserve all distinct meaningful details; don't merely delete repeated entries. Never output two items with the same `Topic:` prefix in the same section. This rule takes priority over suggestions to split significant milestones into separate items when those milestones explicitly carry the same prefix.
+
 Follow these rules:
 1. Keep these five sections in this exact order, with these exact headings:
 🏅 Achievements and Events
@@ -14,9 +16,18 @@ Follow these rules:
 - Within each section, keep items about the same topic together. Order topic groups by importance, with the most meaningful first, and sort items within each topic by importance. Do not add topic headings or subsections.
 - Rewrite notes into clear, natural, concise English using first person where appropriate.
 - Combine overlapping or duplicate items without losing important details.
-- Treat a repeated, explicit topic prefix ending in a colon at the start of source records as a signal to merge them. For example, consolidate records starting with `PPC:` into one cohesive PPC record, and records starting with `Work:` into one cohesive Work record within the same output section, even when their details are different. Preserve each distinct meaningful event, result, name, and date; use the topic label at most once in the combined record instead of repeating the prefix for every detail. A colon in the middle of a sentence, time, or URL is not a topic prefix. Do not combine different prefixes just because both end in a colon.
-- Apply merging within each output section, not across sections. Keep separate actionable Capture List tasks as separate checkboxes unless they are duplicates; a shared prefix alone is not a reason to combine distinct tasks.
-- Within each section, also combine routine PPC (Ping Pong Club) notes that have no prefix into the cohesive PPC record. Keep significant PPC milestones, such as a major release or notable media mention, as separate records beside the routine PPC record. Do not duplicate those milestones in the combined record.
+- Recognize a topic prefix immediately after the source item's leading dash, or at the beginning of its text: `PPC:`, `Work:`, `Life:`, etc. Match the entire label before the first colon, ignoring capitalization and extra spaces. Only a short, specific topic label at the beginning counts; a colon in a time, URL, or middle of a sentence does not. Do not combine different topic labels.
+- For each of the first four output sections, collect every note with the same prefix (including nonadjacent notes), then write a SINGLE cohesive bullet for that prefix. Keep its topic label only once and retain distinct facts, names, dates, accomplishments, and lessons. Do not split an explicitly prefixed milestone off into another bullet with the same label. Keep merging scoped to each output section; do not merge across sections.
+- Example of four source records belonging to the same output section:
+  `- PPC: Fixed paddle tracking.`
+  `- Work: Finished integration tests.`
+  `- PPC: Improved opponent timing.`
+  `- Work: Helped a teammate.`
+  The output for that section must have TWO bullets, not four:
+  `- PPC: Fixed paddle tracking and improved opponent timing. 🏓`
+  `- Work: Finished integration tests and helped a teammate. 💼`
+- Also combine routine PPC (Ping Pong Club) notes without an explicit prefix into the PPC topic bullet when they belong to the same section. Significant PPC milestones without an explicit `PPC:` prefix may stand alone when doing so improves clarity. Never repeat the same facts in two bullets.
+- For the Capture List, preserve distinct actionable tasks as separate checkboxes unless they are duplicates; sharing a prefix does not justify combining unrelated tasks.
 - Move items between sections when another section is more appropriate.
 - Use plain text only. Do not use bold, italics, or asterisks for emphasis.
 - Add relevant emojis at the end of items in any section where natural, including Achievements and Events, Magic Moments, What Did I Learn, My Thoughts, and Capture List. Do not overuse them.
@@ -102,6 +113,7 @@ Optional meanings across all categories:
 - Keep headings for empty sections without inventing filler items.
 - No introduction, conclusion, code fences, or additional commentary.
 - Every item must begin with a literal dash (-), not a bullet symbol (•).
+- **Final check before responding:** In each of the first four sections, scan all completed output bullets for leading `Topic:` labels. If a label appears on more than one bullet, combine those bullets into one, then check again. There must be at most ONE item per normalized topic prefix per section. The Capture List checkbox exception still applies.
 
 Here are my raw journal notes:
 
